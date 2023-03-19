@@ -1,0 +1,3 @@
+En este código, la función bfs recibe como entrada el laberinto representado como una matriz maze, la celda de inicio start y la celda de salida end. La función utiliza una cola (queue) para almacenar las celdas a visitar y un diccionario (visited) para almacenar las celdas visitadas.
+
+El algoritmo utiliza un bucle while para explorar todas las celdas accesibles desde la celda de inicio. Para cada celda adyacente no visitada, se añade a la cola y se marca como visitada en el diccionario. Cuando se llega a la celda de salida, el algoritmo termina y se reconstruye el camino desde la celda de salida hasta la de inicio utilizando el diccionario visited.
